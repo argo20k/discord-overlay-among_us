@@ -1,3 +1,33 @@
+body {
+	/** Base colors */
+	--clr-dark-a0: #000000;
+	--clr-light-a0: #ffffff;
+
+	/** Dark theme primary colors */
+	--clr-primary-a0: #57d6af;
+	--clr-primary-a10: #6fdbb8;
+	--clr-primary-a20: #84e0c0;
+	--clr-primary-a30: #98e5c9;
+	--clr-primary-a40: #aae9d2;
+	--clr-primary-a50: #bceedb;
+
+	/** Dark theme surface colors */
+	--clr-surface-a0: #121212;
+	--clr-surface-a10: #282828;
+	--clr-surface-a20: #3f3f3f;
+	--clr-surface-a30: #575757;
+	--clr-surface-a40: #717171;
+	--clr-surface-a50: #8b8b8b;
+
+	/** Dark theme tonal surface colors */
+	--clr-surface-tonal-a0: #1b2320;
+	--clr-surface-tonal-a10: #303835;
+	--clr-surface-tonal-a20: #464d4b;
+	--clr-surface-tonal-a30: #5e6462;
+	--clr-surface-tonal-a40: #777c7a;
+	--clr-surface-tonal-a50: #909593;
+}
+
 .react-tabs {
 	-webkit-tap-highlight-color: transparent;
 }
@@ -18,6 +48,7 @@
 }
 .react-tabs__tab--selected {
 	background: #fff;
+	background: var(--clr-surface-a50);
 	border-color: #aaa;
 	color: #000;
 	border-radius: 5px 5px 0 0;
