@@ -95,7 +95,7 @@
 															{
 																className: e(t),
 																children: [
-																	Object(h.jsx)('div', { className: 'chara', children: Object(h.jsx)('img', { alt: ''.concat(t, ' player'), src: ''.concat('/players.png') }) }),
+																	Object(h.jsx)('div', { className: 'chara', children: Object(h.jsx)('img', { alt: ''.concat(t, ' player'), src: ''.concat('/discord-overlay-among_us', '/players.png') }) }),
 																	Object(h.jsxs)('div', { className: 'form', children: [t, ' ', Object(h.jsx)('br', {}), Object(h.jsx)('input', { type: 'text', name: t, onChange: n.handleChange, value: n.state[t] })] }),
 																],
 															},
